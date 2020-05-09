@@ -24,6 +24,7 @@
     "reason-urql": "^1.6.0"
   },
   "scripts": {
+    "re:build": "bsb -make-world",
     "clean": "bsb -clean-world",
     "compile": "bsb -make-world -w",
     "start": "parcel index.html",
