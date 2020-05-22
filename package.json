@@ -15,6 +15,7 @@
     "bs-webapi": "^0.15.9",
     "crypto-js": "^4.0.0",
     "framer-motion": "^1.10.3",
+    "parcel": "^1.12.4",
     "re-tailwind": "^0.0.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -24,6 +25,7 @@
     "reason-urql": "^1.6.0"
   },
   "scripts": {
+    "build": "parcel build index.html",
     "re:build": "bsb -make-world",
     "clean": "bsb -clean-world",
     "compile": "bsb -make-world -w",
